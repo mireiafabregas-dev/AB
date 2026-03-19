@@ -6,5 +6,9 @@
     "python.testing.pytestEnabled": true,
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+
+    # "editor.quickSuggestions": false,
+    # "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
 }

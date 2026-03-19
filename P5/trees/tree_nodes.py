@@ -12,7 +12,7 @@ class Node:
         self.distance = distance
 
     def __repr__(self):
-        return f"Node(name={self.name!r}, left={self.left}, right={self.right}, parent={self.parent}), distance={self.distance})"
+        return f"Node(name={self.name!r}, left={self.left}, right={self.right}, parent={self.parent}, distance={self.distance})"
 
 
 def newick2nodes(newick):

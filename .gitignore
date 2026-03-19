@@ -1,18 +1,24 @@
-# Ignore all Python files in all directories excetpt those starting with test_ or ini_
+# Ignore all Python files in all directories 
 **/*.py
-!**/test_*.py
-!**/ini_*.py
 
-!**/__other
-!P5/trees/tree_nodes.py
-!P5/trees/drawtree.py
 # Ignore all compiled Python files in all directories
 **/*.pyc
 **/*:Zone.Identifier
 
 # Ignore additional files and directories
 __pycache__/
-P1/convert_alignment/abc*
-P1/convert_alignment/prep/
-P6/gotoh/steb-by-step_gotoh.txt
+__additional
 .vscode/*
+
+# test_*.py amn ini_*.py and some other should be kept
+!**/test_*.py
+!**/ini_*.py
+
+!P5/trees/tree_nodes.py
+!P5/trees/drawtree.py
+
+!P6/gotoh.py
+!P6/mm.py
+
+
+
